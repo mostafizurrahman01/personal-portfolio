@@ -40,7 +40,7 @@ body {
 
 .typed-text{
     font-size: 2rem;
-    color: var(--primary-dark);
+    color: darkcyan;
 }
 
 .btn-main{
