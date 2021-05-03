@@ -1,8 +1,8 @@
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { WebOutlined } from '@material-ui/icons';
+
 const ResumeData = 
-// [
     {
         owner:[
 
@@ -129,6 +129,4 @@ const ResumeData =
             }
         ]
     };
-// ];
-
 export default ResumeData;

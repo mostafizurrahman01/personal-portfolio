@@ -20,7 +20,6 @@ const Contact = () => {
         <section className="contact mb-3">
             <div className="container">
                 <div className="section-header text-center text-white mb-5">
-                    {/* <h5 className="text-primary">Contact</h5> */}
                     <h1 className="text-primary">Contact With Me</h1>
                 </div>
                 <div className="col-md-9 mx-auto">

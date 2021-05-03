@@ -1,55 +1,3 @@
-// import React from "react";
-// import { Container, Row, Col } from "react-bootstrap";
-// import Particle from "../Particle";
-// import "../../style.css";
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import Github from "./Github";
-// import Techstack from "./Techstack";
-// import Aboutcard from "./AboutCard";
-// import about from "../../Assets/about.png";
-// import './About.css'
-// import Skills from './../Skills/Skills';
-
-
-// function About() {
-//   return (
-//     <Container fluid className="about-section">
-//       <Particle />
-//       <Container>
-//         <Row style={{ justifyContent: "center", padding: "10px" }}>
-//         <Col
-//             md={5}
-//             className="about-img "
-//           >
-//             <img src={about} alt="about" className="img-fluid" />
-//           </Col>
-//           <Col
-//             md={7}
-//             style={{
-//               justifyContent: "center",
-//               paddingTop: "30px",
-//               paddingBottom: "50px",
-//             }}
-//             className=""
-//           >
-//             <h1 className="title" style={{ paddingBottom: "20px" }}>
-//               Know Who <strong className="purple">I'M</strong>
-//             </h1>
-//             <Aboutcard />
-//           </Col>
-//         </Row>
-//         <h1 className="project-heading my-4">
-//        MY  <strong className="purple">SKILLS! </strong>
-//        <Skills></Skills>
-//         </h1>
-//       </Container>
-//     </Container>
-//   );
-// }
-
-// export default About;
-
-
 import { faAngleDoubleRight, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Button, Grid, Paper, Typography } from '@material-ui/core';
@@ -79,10 +27,6 @@ const About = () => {
         <Grid container className="section mb-5">
 
           <Grid item xs={12} md={6}>
-            {/* <Grid item className="section-title mt-3 ms-5">
-                      <span></span>
-                      <Typography variant="h4" className="name_text">Hi there, I am MD.<br/> Mostafizur Rahman</Typography>
-                  </Grid> */}
             <CustomTimeline
               title="My Identity"
               icon={<WorkIcon />} >
@@ -109,7 +53,6 @@ const About = () => {
               <Grid item className="mt-3 ms-5 section-text">
                 <Typography className="aboutMe_text ms-3">Innovative Front end web developer with new experience building and maintaining <br /> responsive websites in the enlisting company.  Expert with HTML, CSS, JavaScript <br /> plus modern libraries and framework. Passionate about competitive programming knowledge <br /> of C++, java language.</Typography>
               </Grid>
-              {/* <Typography className="aboutMe_text ms-3">Innovative Front end web developer with new experience building and maintaining <br /> responsive websites in the enlisting company.  Expert with HTML, CSS, JavaScript <br /> plus modern libraries and framework. Passionate about competitive programming knowledge <br /> of C++, java language.</Typography> */}
               <Grid item className="section_title mb_30 mt-5 ms-5">
                 <span></span>
                 <h6 className="section_text">My Skill</h6>
@@ -152,7 +95,7 @@ const About = () => {
 
       <div>
         <Contact></Contact>
-        <Footer/>
+        <Footer />
       </div>
     </div>
 

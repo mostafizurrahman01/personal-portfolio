@@ -1,7 +1,6 @@
 import { Button, Grid, Paper, Typography } from '@material-ui/core';
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import { Link } from 'react-router-dom';
 import Mypic from '../../../images/Mypic.png';
 import Navbar from '../../Shared/Navbar/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
