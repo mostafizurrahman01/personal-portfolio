@@ -1,6 +1,5 @@
 .work-details {
     padding: 1rem 2rem !important;
-    /* background: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); */
   }
   .work-details h6 {
     font-size: 1.5rem;
@@ -42,7 +41,7 @@
   }
   .work-pic .img-fluid {
     border-radius: 16px;
-    height: 24rem;
+    /* height: 24rem; */
     width: 100%;
   }
   

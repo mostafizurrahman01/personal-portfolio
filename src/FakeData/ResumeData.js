@@ -88,7 +88,24 @@ const ResumeData =
                     { name: 'ReactBootstrap' },
                 ],
                 icon: <WebOutlined />
-            }
+            },
+            {
+                id: 4,
+                img: 'https://i.ibb.co/98TXY3P/Mobile-App.png',
+                url: '',
+                name: 'MoboGadgets',
+                client:
+                  'https://github.com/mostafizurrahman01/mobo-gadgets',
+                details:
+                  'A mobile application for order online a brand new mobile.',
+                live: faExternalLinkAlt,
+                tools: [
+                  { name: 'React Native' },
+                  { name: 'Node' },
+                  { name: 'ReactBootstrap' },
+                ],
+              }
+
         ],
 
         skills: [
@@ -98,6 +115,8 @@ const ResumeData =
                     "React JS",
                     "JavaScript",
                     "TypeScript",
+                    "Redux",
+                    "React Native",
                     "Bootstrap",
                     "Material UI"
                 ]
