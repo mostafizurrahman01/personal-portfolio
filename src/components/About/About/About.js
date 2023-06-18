@@ -80,7 +80,7 @@ const About = () => {
               </Grid>
             </Grid>
             <Grid item xs={12} className="mt-3 ms-5" spacing={3} justify='space-evenly'>
-              <a href="https://drive.google.com/file/d/1oM2_eaqrBY2HdiIhDOr6Cv4NZuceBqy-/view?usp=sharing" className="btn-main" >
+              <a href="https://drive.google.com/file/d/1xEornfP5ozKNC7uwqOcwrmsqD9OED3is/view?usp=sharing" className="btn-main" >
                 <FontAwesomeIcon icon={faDownload} />
                 <Button >Get Resume</Button>
               </a>
